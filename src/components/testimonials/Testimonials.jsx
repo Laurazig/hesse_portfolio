@@ -37,7 +37,7 @@ export default function Testimonials() {
       img: "assets/T_Ada.jpg",
       icon: "assets/TLinked.jpg",
       desc: ' "Her out of the box approach is exactly what we need in the tech industry during this transformation phase in society and challenges we currently face."   ',
-      link: "https://www.linkedin.com/in/jamie-cartwright-a48559185/"
+      link: "https://en.wikipedia.org/wiki/Ada_Lovelace"
     }
   ];
   return (

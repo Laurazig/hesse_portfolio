@@ -24,7 +24,7 @@ export const featuredPortfolio = [
         id: 4,
         title: "English Teacher",
         img: "assets/Weebly.jpg",
-        text: "Created in 2015 with Weebly to advertise my teaching in 2 languages.",
+        text: "Created in 2014 with Weebly to advertise my teaching in 2 languages.",
         link: "https://laurafromleeds.weebly.com/"
     }
     // ,
@@ -152,19 +152,22 @@ export const contentPortfolio = [  //CMS
         id: 1,
         title: "English Teacher",
         img: "assets/Weebly.jpg",
-        text: "Created in 2015 with Weebly to advertise my teaching in 2 languages.",
+        text: "Created in 2014 with Weebly to advertise my teaching in 2 languages.",
         link: "https://laurafromleeds.weebly.com/"
     }
-    // ,
-    // {
-    //     id: 2,
-    //     title: "SPA",
-    //     img: "https://i.picsum.photos/id/1018/3914/2935.jpg?hmac=3N43cQcvTE8NItexePvXvYBrAoGbRssNMpuvuWlwMKg"
-    // },
+    ,
+    {
+        id: 2,
+       title: "Business English Teacher",
+        img: "assets/LauraWordPress.jpg",
+        text: "Created in 2019 just before I left Spain.",
+        link: "https://laurahesse.wordpress.com/laurafromleeds/"
+    }
+    //,
     // {
     //     id: 3,
     //     title: "Hackathon",
-    //     img: "https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo"
+    //     img: "https://laurahesse.wordpress.com/laurafromleeds/"
     // },
     // {
     //     id: 4,
