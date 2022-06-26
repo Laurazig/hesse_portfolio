@@ -26,7 +26,7 @@ export default function Intro() {
             />
             <h3> Developer  </h3>
           </div> */}
-         <h3> Developer  </h3>
+         <h3> Full Stack Developer  </h3>
 
 
         </div>
