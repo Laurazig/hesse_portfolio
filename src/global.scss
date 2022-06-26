@@ -1,0 +1,8 @@
+$mainColour: navy;
+
+$width: 768px;
+@mixin tablet{
+    @media (max-width: #{$width}){
+        @content 
+    }
+}

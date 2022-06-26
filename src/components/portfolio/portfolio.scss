@@ -1,0 +1,110 @@
+@import "../../global.scss";
+
+.portfolio{
+    background-color: turquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+        margin: 1rem;
+        @include tablet{
+            font-size: 30px;
+            margin: 2rem ;
+        }
+    }
+    ul{
+        //margin: 1rem;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        @include tablet{
+            margin-bottom: 2.5rem ;
+            flex-wrap:wrap ;
+            justify-content: center;
+        }
+
+    //-----------
+         // fred code_____________________________
+        // list-style: none;
+        // display: flex;
+        // li{ 
+        //     font-style: 12px;
+        //     margin-right: 5px;
+        //     padding: 0.7px;
+        //     border-radius: 10px;
+        //     cursor: pointer;
+        //     &.active{
+        //         background-color: $mainColour;
+        //         color: white;
+        //     }
+            //____________________________________
+    //----------------
+
+    }
+    .container{
+        width: 80%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        @include tablet{
+            width: 100%;
+            overflow: hidden;
+        }
+        .item{
+            width: 15rem;
+            height: 150px;
+            border-radius: 20px;
+            border: 1px solid rgb(228, 226, 226);
+            margin: 10px 20px;
+            display: flex;
+            align-items: center;
+            
+            flex-direction: column;
+            color: white;
+            position: relative;
+            transition: all 0.5 ease;
+            cursor: pointer;
+            @include tablet{
+                width: 12rem;
+                height: 6rem;
+                margin: 0.3rem;
+            }
+            h3{
+                position: absolute;
+                top: 10%;
+                font-size: 20px;
+                
+            }
+            p{
+                font-size: 15px;
+                position:absolute;
+                top: 30%;
+                padding: 2px;
+                text-align: center;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: 1;
+            }
+            &:hover{
+                background-color: $mainColour;
+                img{
+                    opacity: 0.2 ;
+                    z-index: 0;
+                }
+            }
+        }
+    }
+    .directLink{
+        ul{
+            display: block;
+        }
+    }
+}
