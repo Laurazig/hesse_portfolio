@@ -1,17 +1,24 @@
 import "./testimonials.scss";
-// import { DoubleArrow, LinkedIn } from "@mui/icons-material";
+//import { DoubleArrow, LinkedIn } from "@mui/icons-material";
 
 
 export default function Testimonials() {
   const data=
   [  {
+      // id:1,
+      // Fname: "Federica Lora",
+      // title: "DCI WebDev student & fellow p/t Class Tutor",
+      // img: "assets/TFrederica.jpg",
+      // icon: "assets/TLinked.jpg",
+      // desc: '   coming soon ',
+      // link: "https://www.linkedin.com/in/federica-lora-272a9ba6/"
       id:1,
-      Fname: "Federica Lora",
-      title: "DCI WebDev student & fellow p/t Class Tutor",
-      img: "assets/TFrederica.jpg",
+      Fname: "Margaret Hamilton",
+      title: "Head of Software Engineering  - Apollo missions",
+      img: "assets/margaret_hamilton.jpg",
       icon: "assets/TLinked.jpg",
-      desc: '   coming soon ',
-      link: "https://www.linkedin.com/in/federica-lora-272a9ba6/"
+      desc: ' "Laura is a dedicated programmer and passionate about having an influence on the digitalisation of our world!" ',
+      link: "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
     },
     {
       id:2,
@@ -25,11 +32,11 @@ export default function Testimonials() {
     },
     {
       id:3,
-      Fname: "Jamie Cartwright",
-      title: "DCI Main Class Tutor",
-      img: "assets/TJamie.jpg",
+      Fname: "Ada Lovelace",
+      title: "The First Computer Programmer",
+      img: "assets/T_Ada.jpg",
       icon: "assets/TLinked.jpg",
-      desc: '   coming soon ',
+      desc: ' "Her out of the box approach is exactly what we need in the tech industry during this transformation phase in society and challenges we currently face."   ',
       link: "https://www.linkedin.com/in/jamie-cartwright-a48559185/"
     }
   ];
