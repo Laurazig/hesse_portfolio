@@ -158,9 +158,9 @@ export const contentPortfolio = [  //CMS
     ,
     {
         id: 2,
-       title: "Business English Teacher",
+       title: "Business English",
         img: "assets/LauraWordPress.jpg",
-        text: "Created in 2019 just before I left Spain.",
+        text: "Created on WordPress in 2019 just before I left Spain.",
         link: "https://laurahesse.wordpress.com/laurafromleeds/"
     }
     //,
