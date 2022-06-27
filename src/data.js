@@ -160,7 +160,7 @@ export const contentPortfolio = [  //CMS
         id: 2,
        title: "Business English",
         img: "assets/LauraWordPress.jpg",
-        text: "Created on WordPress in 2019 just before I left Spain.",
+        text: "Unfinished WordPress in 2019 just before I left Spain.",
         link: "https://laurahesse.wordpress.com/laurafromleeds/"
     }
     //,
