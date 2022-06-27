@@ -63,7 +63,7 @@ export default function Works() {
               </div>
               <div className="right">
 
-                <img src={d.img} />
+                <img src={d.img} alt="images of websites "/>
               </div>
             </div>
             <div className="arrowR">►</div>
