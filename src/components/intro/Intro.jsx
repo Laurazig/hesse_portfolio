@@ -27,10 +27,12 @@ export default function Intro() {
             <h3> Developer  </h3>
           </div> */}
          <h3> Full Stack Developer  </h3>
+         
 
-
+         
         </div>
-        <a href="#portfolio">
+        <a href="#works">
+          <div className="arrow">▼</div> 
           {/* <KeyboardArrowDownIcon className="introArrowDown" /> */}
         </a>
       </div>

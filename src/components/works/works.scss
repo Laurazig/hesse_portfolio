@@ -1,26 +1,29 @@
 @import "../../global.scss";
 
 .works {
-    background-color: #DC58EF;
+    // background-color: #DC58EF;
+    background-color: turquoise;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 
-    .arrow{
+    .arrow {
         font-size: 3rem;
         color: white;
         position: absolute;
         cursor: pointer;
-        @include tablet{
+
+        @include tablet {
             display: none;
         }
 
-        &.left{
+        &.left {
             left: 100px;
             // transform: rotatte;
         }
-        &.right{
+
+        &.right {
             right: 100px;
         }
     }
@@ -31,7 +34,8 @@
         position: absolute;
         left: 0;
         transition: all 1s ease-out;
-        @include tablet{
+
+        @include tablet {
             height: 100vh;
             flex-direction: column;
             justify-content: center;
@@ -42,8 +46,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            @include tablet{
+
+            @include tablet {
                 margin: 0 0 10px 0;
+            }
+            .arrowL{
+                color: white;
+                font-size: 2rem;
+                margin: 1rem;
+                cursor: pointer;
             }
 
             .item {
@@ -54,46 +65,63 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                @include tablet{
+
+                @include tablet {
                     width: 90%;
                     height: 175px;
                     //margin: 100px 100px 100px 100px;
-                    
+
 
 
                 }
 
-                .left{
+                .left {
                     flex: 4;
                     height: 80%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
+
                     .leftContainer {
                         width: 90%;
                         height: 70%;
                         display: flex;
-                        flex-direction:column ;
+                        flex-direction: column;
                         justify-content: space-between;
-                        .imgContainer{
-                            width: 40px;
-                            height: 40px;
-                            border-radius: 50%;
-                            background-color: #db58ef;
-                            display: flex;
-                            align-items: center;
-                             justify-content: center;
-                            .icon{
-                                font-size: 2rem;
-                            }
+
+                        // .imgContainer {
+                        //     width: 40px;
+                        //     height: 40px;
+                        //     border-radius: 50%;
+                        //     background-color: #db58ef;
+                        //     display: flex;
+                        //     align-items: center;
+                        //     justify-content: center;
+
+                        //     .icon {
+                        //         font-size: 2rem;
+                        //     }
+                        // }
+                        a{
+                            text-decoration: none;
+                            position: relative;
                         }
-                        h2{
-                            font-size: 20px ;
+
+                        h2 {
+                            font-size: 20px;
+                            color: black;
+                            margin-bottom: 2rem;
+
+
                         }
-                        p{
+
+                        p {
                             font-size: 13px;
+                            // position: absolute;
+                            // bottom: 0%;
                         }
-                        span{
+
+                        span {
                             font-size: 12px;
                             font-weight: 600;
                             text-decoration: underline;
@@ -101,20 +129,30 @@
                         }
                     }
                 }
-                .right{
-                    flex:8;
+
+                .right {
+                    flex: 8;
                     height: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     overflow: hidden;
+                    
+
                     img {
-                        width: 400px;
+                        width: 72.5%;
                         transform: rotate(-10deg);
-                        
-                       
+                        overflow: hidden;
+
+
                     }
                 }
+            }
+            .arrowR{
+                color: white;
+                font-size: 2rem;
+                margin: 1rem;
+                cursor: pointer;
             }
         }
     }

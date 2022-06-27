@@ -55,6 +55,7 @@ export default function Contact() {
             <div className="right">
               {/* <LinkedIn className="icon" /> */}
               {/* <img src="assets/Contact_LinkedInGroup.jpg" alt="LinkedIn screenshot of group" /> */}
+              <img src="assets/TLinked2.jpg" alt="" />
             </div>
           
         </a>

@@ -193,7 +193,8 @@
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        @include tablet{
+
+                        @include tablet {
                                 padding-left: 0;
                                 align-items: center;
                         }
@@ -202,7 +203,8 @@
                                 font-size: 60px;
                                 margin: 10px 0;
                                 color: $mainColour;
-                                @include tablet{
+
+                                @include tablet {
                                         font-size: 40px;
                                 }
                         }
@@ -210,16 +212,18 @@
                         h2 {
                                 font-size: 35px;
                                 color: $mainColour;
-                                @include tablet{
+
+                                @include tablet {
                                         font-size: 27px;
                                 }
-                                
+
                         }
 
                         h3 {
                                 font-size: 1rem;
                                 color: $mainColour;
-                                @include tablet{
+
+                                @include tablet {
                                         font-size: 20px;
                                 }
 
@@ -242,32 +246,51 @@
                                         }
                                 }
                         }
-                        .typer{
+
+                        .typer {
                                 display: flex;
                                 font-size: 1.5rem;
                                 color: $mainColour;
                                 // .typewriter{
-                                        
+
                                 // }
-                                h3{
+                                h3 {
                                         font-size: 1.5rem;
                                 }
-                                
+
                         }
                 }
 
                 a {
                         position: absolute;
                         bottom: 10px;
-                        left: 40%
+                        left: 15%;
+                        text-decoration: none;
+                        @include tablet {
+                                left: 50%;
+                                
+
+                        }
+
+
                 }
 
-                .introArrowDown {
-                        font-size: 3rem;
-                        text-align: center;
-                        color: $mainColour;
-                        animation: arrowBlink 2s infinite;
+                // .introArrowDown {
+                //         font-size: 3rem;
+                //         text-align: center;
+                //         color: $mainColour;
+                //         animation: arrowBlink 2s infinite;
 
+                // }
+                .arrow {
+                        color: white;
+                        font-size: 2rem;
+                        animation: arrowBlink 2s infinite;
+                        @include tablet {
+                                font-size: 1rem;
+
+
+                        }
                 }
 
                 @keyframes arrowBlink {
