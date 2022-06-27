@@ -48,13 +48,16 @@
             justify-content: center;
 
             @include tablet {
-                margin: 0 0 10px 0;
+                margin:  10px 0 ;
             }
             .arrowL{
                 color: white;
                 font-size: 2rem;
                 margin: 1rem;
                 cursor: pointer;
+                @include tablet {
+                    display: none;
+                }
             }
 
             .item {
@@ -111,7 +114,10 @@
                             font-size: 20px;
                             color: black;
                             margin-bottom: 2rem;
-
+                            @include tablet {
+                                font-size: 0.75rem;
+                                margin-bottom: 0.4rem;
+                            }
 
                         }
 
@@ -119,6 +125,9 @@
                             font-size: 13px;
                             // position: absolute;
                             // bottom: 0%;
+                            @include tablet {
+                                font-size: 0.65rem;
+                            }
                         }
 
                         span {
@@ -153,6 +162,9 @@
                 font-size: 2rem;
                 margin: 1rem;
                 cursor: pointer;
+                @include tablet {
+                    display: none;
+                }
             }
         }
     }

@@ -43,7 +43,7 @@
             transition: all 1s ease;
             @include tablet{
                 height: 180px;
-                //margin: 10px 0;
+                margin: 5px 0;
             }
             &.featured{
                 width: 300px;

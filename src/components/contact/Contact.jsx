@@ -31,14 +31,14 @@ export default function Contact() {
           <div className="conIcon">
             <a href="https://www.linkedin.com/in/laura-hesse-a998048a" target="_blank" rel="noreferrer">
               {/* <LinkedIn className="icon" /> */}
-              <h3>Laura Hesse</h3>
+              <h3>LinkedIn: Laura Hesse</h3>
             </a>
 
           </div>
           <div className="conIcon">
             <a href="https://github.com/Laurazig">
               {/* <GitHub className="icon" /> */}
-              <h3>Laurazig</h3>
+              <h3>Github: Laurazig</h3>
             </a>
 
           </div>
