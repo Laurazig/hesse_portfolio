@@ -14,23 +14,28 @@ export default function Works() {
       desc: "2 WebDev students, 2 Online Marketing students, 3 gruling days, 1 amazing experience. June 2022",
       img: "assets/W_HackathonShort.jpg",
       link: "https://lenganthanh.github.io/final_inspiration_jam/index.html",
-      buttons: ["SCSS", "Bootstrap"]
+      //tech: ["SCSS", "Bootstrap"]
+      tech: "SCSS, Bootstrap"
     },
     {
       id: "2",
       // icon: <Language />,
       title: "Leipzig Wardrobe",
-      desc: "React version of my static leipzigg.com site. Deployed with Vercel. Created April 2022 & still under construction.",
+      desc: "Functionality: FORMS: add card to page, error checking.  Deployed with Vercel. April 2022.",
       img: "assets/W_react_Wardrobe.jpg",
-      link: "https://leipzig-wardrobe-react.vercel.app/"
+      link: "https://leipzig-wardrobe-react.vercel.app/",
+      // tech: ["react"]
+      tech: "React"
     },
     {
       id: "3",
       // icon: <Language />,
       title: "www.leipzigg.com",
-      desc: "HTML & CSS website I created to inform & build bridges in the local community. Hosted with Azure. 2021",
+      desc: "A website I created to inform & build bridges in the local community. Hosted with Azure. 2021",
       img: "assets/W_LeipzigWardrobe.jpg",
-      link: "https://www.leipzigg.com/"
+      link: "https://www.leipzigg.com/",
+      // tech: ["HTML", "CSS"]
+      tech: "HTML & CSS"
     }
 
   ]
@@ -39,34 +44,34 @@ export default function Works() {
       setCurrentSlider(currentSlider < data.length - 1 ? currentSlider + 1 : 0)
   }
   return (
-
     <div className="works" id="works">
+        {/* <h1>projects</h1> */}
       <div className="slider" style={{ transform: `translateX(-${currentSlider * 100}vw)` }}>
         {data.map((d) => (
           <div className="container">
-            <div className="arrowL" onClick={()=>handleClick("left")}>◄</div>
+            <div className="arrowL" onClick={() => handleClick("left")}>◄</div>
             {/* <ArrowBackIos className="arrow left" onClick={()=>handleClick("left")} /> */}
-            <div className="item">
-              <div className="left">
-                <div className="leftContainer">
-                 {/* <div className="imgContainer">
+            <a href={d.link} target="_blank" rel="noreferrer">
+              <div className="item">
+                <div className="left">
+                  <div className="leftContainer">
+                    {/* <div className="imgContainer">
                      <img src={d.img} alt="" /> 
                     <MobileScreenShare className="icon" /> 
                   </div> */}
-                  <a href={d.link} target="_blank" rel="noreferrer">
+
                     <h2>{d.title}</h2>
                     <p>{d.desc}</p>
-                  </a>
+                    <span>{d.tech}</span>
+                  </div>
+                </div>
+                <div className="right">
 
-                  {/* <span>Projects</span> */}
+                  <img src={d.img} alt="images of websites " />
                 </div>
               </div>
-              <div className="right">
-
-                <img src={d.img} alt="images of websites "/>
-              </div>
-            </div>
-            <div className="arrowR">►</div>
+            </a>
+            <div className="arrowR" onClick={() => handleClick("left")}>►</div>
             {/* <ArrowForwardIos className="arrow right"  onClick={()=>handleClick("left")} /> */}
           </div>
         ))}

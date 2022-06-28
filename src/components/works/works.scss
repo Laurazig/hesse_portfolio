@@ -34,11 +34,14 @@
         position: absolute;
         left: 0;
         transition: all 1s ease-out;
+        
 
         @include tablet {
-            height: 100vh;
+            height: 85vh;
             flex-direction: column;
             justify-content: center;
+            overflow:hidden;
+          
         }
 
         .container {
@@ -47,121 +50,159 @@
             align-items: center;
             justify-content: center;
 
+            //overflow: hidden;
             @include tablet {
-                margin:  10px 0 ;
+                margin: 10px 0;
             }
-            .arrowL{
+
+            .arrowL {
                 color: white;
                 font-size: 2rem;
                 margin: 1rem;
                 cursor: pointer;
+
                 @include tablet {
                     display: none;
                 }
             }
 
-            .item {
-                width: 700px;
-                height: 100%;
-                background-color: white;
+            a {
+                text-decoration: none;
+                height: 350px;
+                position: relative;
+                //overflow: hidden;
                 border-radius: 20px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                color: black;
 
                 @include tablet {
+                   // height: 200px;
                     width: 90%;
                     height: 175px;
-                    //margin: 100px 100px 100px 100px;
-
-
-
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0;
+                    
                 }
+                // &:hover{
+                //     //transform: scale(1.1);
+                //     border: 1 1 black;
+                // }
 
-                .left {
-                    flex: 4;
-                    height: 80%;
+                .item {
+                    width: 700px;
+                    height: inherit;
+                    background-color: white;
+                    border-radius: 20px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    //overflow: hidden;
 
-                    .leftContainer {
+                    @include tablet {
                         width: 90%;
-                        height: 70%;
+                        margin: 0;
+                        // height: 175px;
+                        //margin: 100px 100px 100px 100px;
+
+
+
+                    }
+
+                    .left {
+                        flex: 4;
+                        //height: 80%;
                         display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-
-                        // .imgContainer {
-                        //     width: 40px;
-                        //     height: 40px;
-                        //     border-radius: 50%;
-                        //     background-color: #db58ef;
-                        //     display: flex;
-                        //     align-items: center;
-                        //     justify-content: center;
-
-                        //     .icon {
-                        //         font-size: 2rem;
-                        //     }
-                        // }
-                        a{
-                            text-decoration: none;
-                            position: relative;
+                        align-items: center;
+                        justify-content: center;
+                        @include tablet {
+                         
                         }
 
-                        h2 {
-                            font-size: 20px;
-                            color: black;
-                            margin-bottom: 2rem;
-                            @include tablet {
-                                font-size: 0.75rem;
-                                margin-bottom: 0.4rem;
+                        .leftContainer {
+                            width: 90%;
+                            //height: 70%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            
+
+                            // .imgContainer {
+                            //     width: 40px;
+                            //     height: 40px;
+                            //     border-radius: 50%;
+                            //     background-color: #db58ef;
+                            //     display: flex;
+                            //     align-items: center;
+                            //     justify-content: center;
+
+                            //     .icon {
+                            //         font-size: 2rem;
+                            //     }
+                            // }
+
+
+                            h2 {
+                                font-size: 20px;
+                                color: black;
+                                margin-bottom: 2rem;
+
+                                @include tablet {
+                                    font-size: 0.65rem;
+                                    margin-bottom: 0.4rem;
+                                    text-align: center;
+                                }
+
                             }
 
-                        }
+                            p {
+                                font-size: 13px;
 
-                        p {
-                            font-size: 13px;
-                            // position: absolute;
-                            // bottom: 0%;
-                            @include tablet {
-                                font-size: 0.65rem;
+                                // position: absolute;
+                                // bottom: 0%;
+                                @include tablet {
+                                    font-size: 0.65rem;
+                                }
                             }
-                        }
-
-                        span {
-                            font-size: 12px;
-                            font-weight: 600;
-                            text-decoration: underline;
-                            cursor: pointer;
+                            span{
+                                margin-top: 1rem;
+                                text-align: center;
+                                @include tablet {
+                                    font-size: 0.75rem;
+                                    margin-top: 0.5rem;
+                                }
+                            }
+                         
                         }
                     }
-                }
 
-                .right {
-                    flex: 8;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    overflow: hidden;
-                    
-
-                    img {
-                        width: 72.5%;
-                        transform: rotate(-10deg);
+                    .right {
+                        flex: 8;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                         overflow: hidden;
 
 
+                        img {
+                            width: 72.5%;
+                            transform: rotate(-10deg);
+                            overflow: hidden;
+
+
+                        }
                     }
                 }
             }
-            .arrowR{
+
+            .arrowR {
                 color: white;
                 font-size: 2rem;
                 margin: 1rem;
                 cursor: pointer;
+
                 @include tablet {
                     display: none;
                 }
