@@ -5,39 +5,40 @@ import "./testimonials.scss";
 export default function Testimonials() {
   const data=
   [  {
-      // id:1,
-      // Fname: "Federica Lora",
-      // title: "DCI WebDev student & fellow p/t Class Tutor",
-      // img: "assets/TFrederica.jpg",
-      // icon: "assets/TLinked.jpg",
-      // desc: '   coming soon ',
-      // link: "https://www.linkedin.com/in/federica-lora-272a9ba6/"
       id:1,
-      Fname: "Margaret Hamilton",
-      title: "Head of Software Engineering  - Apollo missions",
-      img: "assets/margaret_hamilton.jpg",
+      Fname: "Federica Lora",
+      title: "DCI WebDev student & fellow p/t Class Tutor",
+      img: "assets/TFrederica.jpg",
       icon: "assets/TLinked.jpg",
-      desc: ' "Laura is a dedicated programmer and passionate about having an influence on the digitalisation of our world!" ',
-      link: "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
+      desc: '   "Laura is always willing to help; she makes time for others and is always willing to walk you through a whole project, to offer valuable assistance in finding bugs, or simply help you understand certain functionalities." ',
+      link: "https://www.linkedin.com/in/federica-lora-272a9ba6/"
+      // id:1,
+      // Fname: "Margaret Hamilton",
+      // title: "Head of Software Engineering  - Apollo missions",
+      // img: "assets/margaret_hamilton.jpg",
+      // icon: "assets/TLinked.jpg",
+      // desc: ' "Laura is a dedicated programmer and passionate about having an influence on the digitalisation of our world!" ',
+      // link: "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
     },
     {
       id:2,
+      Fname: "Jamie Cartwright",
+      title: "DCI Main Class Tutor",
+      img: "assets/TJamie.jpg",
+      icon: "assets/TLinked.jpg",
+      desc: ' "Going forward, I am confident that Laura has the professionalism, drive to succeed and technical curiosity to build a long and successful career in the field of web development."   ',
+      link: "https://www.linkedin.com/in/jamie-cartwright-a48559185/",
+      featured: true
+    },
+    {
+      id:3,
       Fname: "Neha Berlia",
       title: "DCI WebDev student & Class Representative",
       img: "assets/TBerlia.jpg",
       icon: "assets/TLinked.jpg",
       desc: '  "She is an enthusiastic participant in all class discussions and jumps at every opportunity to excel at what she is learning." ',
-      link: "https://www.linkedin.com/in/neha-berlia-66b14554/",
-      featured: true
-    },
-    {
-      id:3,
-      Fname: "Ada Lovelace",
-      title: "The First Computer Programmer",
-      img: "assets/T_Ada.jpg",
-      icon: "assets/TLinked.jpg",
-      desc: ' "Her out of the box approach is exactly what we need in the tech industry during this transformation phase in society and challenges we currently face."   ',
-      link: "https://en.wikipedia.org/wiki/Ada_Lovelace"
+      link: "https://www.linkedin.com/in/neha-berlia-66b14554/"
+      
     }
   ];
   return (
@@ -59,6 +60,7 @@ export default function Testimonials() {
             {/* <img src={d.icon} alt="" className="right" /> */}
           </div>
           <div className="center">
+          {/* <img src="assets/speech-bubble.png" alt="speech bubble" /> */}
           {d.desc}
           </div>
           <div className="bottom">
