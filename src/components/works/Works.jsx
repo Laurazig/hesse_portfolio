@@ -10,22 +10,22 @@ export default function Works() {
     {
       id: "1",
       // icon: <Language />,
+      title: "Leipzig Wardrobe",
+      desc: "Fullstack. Frontend: error checking forms, adding a workshop card.Backend: error checking forms, admin rights. April - present 2022.",
+      img: "assets/W_react_Wardrobe.jpg",
+      link: "https://backend-final-project.vercel.app/",
+      // tech: ["react"]
+      tech: "Frontend: React, Vercel. Backend: Express validation, JWT, cookies, Atlas, MongoDB, MVC, Heroku."
+    },
+    {
+      id: "2",
+      // icon: <Language />,
       title: "DCI Jam Hackathon",
       desc: "2 WebDev students, 2 Online Marketing students, 3 gruling days, 1 amazing experience. June 2022",
       img: "assets/W_HackathonShort.jpg",
       link: "https://lenganthanh.github.io/final_inspiration_jam/index.html",
       //tech: ["SCSS", "Bootstrap"]
       tech: "SCSS, Bootstrap"
-    },
-    {
-      id: "2",
-      // icon: <Language />,
-      title: "Leipzig Wardrobe",
-      desc: "Functionality: FORMS: add card to page, error checking.  Deployed with Vercel. April 2022.",
-      img: "assets/W_react_Wardrobe.jpg",
-      link: "https://leipzig-wardrobe-react.vercel.app/",
-      // tech: ["react"]
-      tech: "React"
     },
     {
       id: "3",
@@ -45,7 +45,7 @@ export default function Works() {
   }
   return (
     <div className="works" id="works">
-        {/* <h1>projects</h1> */}
+      {/* <h1>projects</h1> */}
       <div className="slider" style={{ transform: `translateX(-${currentSlider * 100}vw)` }}>
         {data.map((d) => (
           <div className="container">
