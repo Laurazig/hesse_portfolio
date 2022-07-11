@@ -10,12 +10,12 @@ export default function Works() {
     {
       id: "1",
       // icon: <Language />,
-      title: "Leipzig Wardrobe",
-      desc: "Fullstack. Frontend: error checking forms, adding a workshop card.Backend: error checking forms, admin rights. April - present 2022.",
+      title: "Fullstack- Leipzig Wardrobe",
+      desc: "Frontend: error check forms, add workshop card. Backend: error check forms, admin rights. April - present.",
       img: "assets/W_react_Wardrobe.jpg",
       link: "https://backend-final-project.vercel.app/",
       // tech: ["react"]
-      tech: "Frontend: React, Vercel. Backend: Express validation, JWT, cookies, Atlas, MongoDB, MVC, Heroku."
+      tech: "FE: React, Vercel. BE: Express validation, JWT, cookies, Atlas, MVC, Heroku."
     },
     {
       id: "2",

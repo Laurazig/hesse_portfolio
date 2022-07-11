@@ -10,7 +10,7 @@ export default function Testimonials() {
       title: "DCI WebDev student & fellow p/t Class Tutor",
       img: "assets/TFrederica.jpg",
       icon: "assets/TLinked.jpg",
-      desc: '   "Laura is always willing to help; she makes time for others and is always willing to walk you through a whole project, to offer valuable assistance in finding bugs, or simply help you understand certain functionalities." ',
+      desc: '   "Laura is always willing to help; she makes time for others and is always willing to offer valuable assistance in finding bugs." ',
       link: "https://www.linkedin.com/in/federica-lora-272a9ba6/"
       // id:1,
       // Fname: "Margaret Hamilton",
