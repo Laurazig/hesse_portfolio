@@ -39,7 +39,7 @@ export default function Contact() {
               <img src="assets/githubIcon.jpg" alt="" className="icon" />
               {/* <h3>Laurazig</h3> */}
             </a>
-            <a href="https://github.com/Laurazig">
+            <a href="https://twitter.com/zukunfty">
               <img src="assets/twitter.png" alt="" className="icon" />
               {/* <h3>@zukunfty</h3> */}
             </a>
