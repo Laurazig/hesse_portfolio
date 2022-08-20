@@ -33,22 +33,19 @@ export default function Contact() {
               {/* <LinkedIn className="icon" /> */}
               <img src="assets/TLinked2.jpg" alt="" className="icon" />
             </a>
-            <a href="https://github.com/Laurazig">
-            
+            <a href="https://github.com/Laurazig" target="_blank" rel="noreferrer">
               <img src="assets/githubIcon.jpg" alt="" className="icon" />
-            
             </a>
-            <a href="https://twitter.com/zukunfty">
+            <a href="https://twitter.com/zukunfty" target="_blank" rel="noreferrer">
               <img src="assets/twitter.png" alt="" className="icon" />
-      
+            </a>
+            <a href="https://www.instagram.com/leipzig.wardrobe/"target="_blank" rel="noreferrer">
+              <img src="assets/instagram.png" alt="" className="icon" />
             </a>
           </div>
         </div>
-
-        <a href="https://www.linkedin.com/groups/12668793/" className="white">
-
+        <a href="https://www.linkedin.com/groups/12668793/" className="white" target="_blank" rel="noreferrer">
           <div className="left">
-
             <p>Why not join my 'Women Who Code' group on LinkedIn or recommend it to a friend?!</p>
           </div>
           <div className="right">
@@ -65,7 +62,7 @@ export default function Contact() {
           <button type="submit">Send</button>
           {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form> */}
-        <a href="https://www.meetup.com/de-DE/OpenTechSchool-Leipzig/?_cookie-check=6cqxXycmBYZwpL_I" className="white">
+        <a href="https://www.meetup.com/de-DE/OpenTechSchool-Leipzig/?_cookie-check=6cqxXycmBYZwpL_I" className="white" target="_blank" rel="noreferrer">
           <div className="left">
             <p>Come and code with me at the weekly OpenTechSchool meetup in Leipzig! </p>
           </div>
