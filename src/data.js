@@ -20,13 +20,13 @@ export const featuredPortfolio = [
         text: "HTML & CSS website I created to inform & build bridges in the local community. Hosted with Azure. 2021",
         link: "https://www.leipzigg.com/"
     },
-    {
-        id: 4,
-        title: "English Teacher",
-        img: "assets/Weebly.jpg",
-        text: "Created in 2014 with Weebly to advertise my teaching in 2 languages.",
-        link: "https://laurafromleeds.weebly.com/"
-    }
+    // {
+    //     id: 4,
+    //     title: "English Teacher",
+    //     img: "assets/Weebly.jpg",
+    //     text: "Created in 2014 with Weebly to advertise my teaching in 2 languages.",
+    //     link: "https://laurafromleeds.weebly.com/"
+    // }
     // ,
     // {
     //     id: 5,

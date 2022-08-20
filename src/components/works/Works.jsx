@@ -4,18 +4,17 @@ import { useState } from "react";
 
 export default function Works() {
   const [currentSlider, setCurrentSlider] = useState(0)
-
+ 
 
   const data = [
     {
       id: "1",
-      // icon: <Language />,
-      title: "Fullstack- Leipzig Wardrobe",
-      desc: "Frontend: error check forms, add workshop card. Backend: error check forms, admin rights. April - present.",
-      img: "assets/W_react_Wardrobe.jpg",
-      link: "https://hesse-final-project2.herokuapp.com",
+      title: "DCI Final project",
+      desc: "In a team of 4, I have the role of SCRUM master. E-commerce site- vegan organic version of Hello Fresh.",
+      img: "assets/bioBites.jpg",
+      link: "https://clone-dci-final.vercel.app/",
       // tech: ["react"]
-      tech: "MERN stack, Express validation, JWT, cookies, Atlas, MVC, Heroku."
+      tech: "Frontend: SPA React.js."
     },
     {
       id: "2",
@@ -37,6 +36,14 @@ export default function Works() {
       // tech: ["HTML", "CSS"]
       tech: "HTML & CSS"
     }
+    // {
+    //   id: "1",
+    //   title: "Fullstack- Leipzig Wardrobe",
+    //   desc: "Frontend: error check forms, add workshop card. Backend: error check forms, admin rights. April - present.",
+    //   img: "assets/W_react_Wardrobe.jpg",
+    //   link: "https://hesse-final-project2.herokuapp.com",
+    //   tech: "MERN stack, Express validation, JWT, cookies, Atlas, MVC, Heroku."
+    // },
 
   ]
   const handleClick = (way) => {
