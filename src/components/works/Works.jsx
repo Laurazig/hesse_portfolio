@@ -10,11 +10,11 @@ export default function Works() {
     {
       id: "1",
       title: "DCI Final project",
-      desc: "In a team of 4, I have the role of SCRUM master. E-commerce site- vegan organic version of Hello Fresh.",
+      desc: "In a team of 4, I have the role of SCRUM master. E-commerce site- vegan organic version of Hello Fresh. To be presented on Sept 6th. ",
       img: "assets/bioBites.jpg",
       link: "https://clone-dci-final.vercel.app/",
       // tech: ["react"]
-      tech: "Frontend: SPA React.js."
+      tech: "Frontend: SPA React.js. | backend: to be deployed  - MongoDB"
     },
     {
       id: "2",
