@@ -10,10 +10,10 @@ export default function Works() {
     {
       id: "1",
       title: "DCI Final project",
-      desc: "Under construction: In a team of 4, I have the role of SCRUM master. E-commerce site- vegan organic version of Hello Fresh. To be presented on Sept 6th. ",
+      desc: "MERN stack- Under construction: In a team of 4, I have the role of SCRUM master. E-commerce site: vegan organic version of Hello Fresh. To be presented on Sept 6th. ",
       img: "assets/bioBites.jpg",
-      link: "https://clone-dci-final.vercel.app/",
-      tech: "Frontend: SPA React.js. | backend: to be deployed  - MongoDB"
+      link: "https://biobites.herokuapp.com",
+      tech: "Frontend: SPA React.js. | backend: MongoDB, Express, Node.js, JWT, bcrypt"
     },
     {
       id: "2",
