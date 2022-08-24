@@ -5,16 +5,24 @@ import { useState } from "react";
 export default function Works() {
   const [currentSlider, setCurrentSlider] = useState(0)
  
-
   const data = [
+    // {
+    //   id: "1",
+    //   title: "DCI Final project",
+    //   desc: "MERN stack- Under construction: In a team of 4, I have the role of SCRUM master. E-commerce site: vegan organic version of Hello Fresh. To be presented on Sept 6th. ",
+    //   img: "assets/bioBites.jpg",
+    //   link: "https://biobites.herokuapp.com",
+    //   tech: "Frontend: SPA React.js. | backend: MongoDB, Express, Node.js, JWT, bcrypt"
+    // },
     {
       id: "1",
       title: "DCI Final project",
       desc: "MERN stack- Under construction: In a team of 4, I have the role of SCRUM master. E-commerce site: vegan organic version of Hello Fresh. To be presented on Sept 6th. ",
       img: "assets/bioBites.jpg",
-      link: "https://biobites.herokuapp.com",
-      tech: "Frontend: SPA React.js. | backend: MongoDB, Express, Node.js, JWT, bcrypt"
+      link: "https://clone-dci-final.vercel.app/",
+      tech: "Frontend: SPA React.js. | backend needs deploying: MongoDB, Express, Node.js, JWT, bcrypt"
     },
+    
     {
       id: "2",
       title: "DCI Jam Hackathon",

@@ -3,8 +3,6 @@
 import "./contact.scss";
 // import { Person, Mail, GitHub, LinkedIn } from "@mui/icons-material";
 
-
-
 export default function Contact() {
   // const [message, setMessage] = useState(false)
   // const handleSubmit = (e) => {
