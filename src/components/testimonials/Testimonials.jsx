@@ -1,6 +1,4 @@
 import "./testimonials.scss";
-//import { DoubleArrow, LinkedIn } from "@mui/icons-material";
-
 
 export default function Testimonials() {
   const data =
@@ -12,13 +10,6 @@ export default function Testimonials() {
       icon: "assets/TLinked.jpg",
       desc: '   "Laura is always willing to help; she makes time for others and is always willing to offer valuable assistance in finding bugs." ',
       link: "https://www.linkedin.com/in/federica-lora-272a9ba6/"
-      // id:1,
-      // Fname: "Margaret Hamilton",
-      // title: "Head of Software Engineering  - Apollo missions",
-      // img: "assets/margaret_hamilton.jpg",
-      // icon: "assets/TLinked.jpg",
-      // desc: ' "Laura is a dedicated programmer and passionate about having an influence on the digitalisation of our world!" ',
-      // link: "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
     },
     {
       id: 2,
@@ -38,7 +29,6 @@ export default function Testimonials() {
       icon: "assets/TLinked.jpg",
       desc: '  "She is an enthusiastic participant in all class discussions and jumps at every opportunity to excel at what she is learning." ',
       link: "https://www.linkedin.com/in/neha-berlia-66b14554/"
-
     }
     ];
   return (
@@ -46,22 +36,13 @@ export default function Testimonials() {
       <h1>Testimonials</h1>
       <div className="container">
         {data.map(d => (
-
           <div className={d.featured ? "card featured" : "card"}>
             <div className="top">
-              {/* <img src="assets/arrowBentTestimonial.jpg" alt="" className="left" /> */}
-              {/* <div className="left"><DoubleArrow/></div> */}
-
-              <a href="{d.link}" >
+              <a href={d.link} >
                 <img src={d.img} alt="" className="user" />
-                {/* <LinkedIn className="LinkedIn"/> */}
               </a>
-
-
-              {/* <img src={d.icon} alt="" className="right" /> */}
             </div>
             <div className="center">
-              {/* <img src="assets/speech-bubble.png" alt="speech bubble" /> */}
               {d.desc}
             </div>
             <div className="bottom">
@@ -69,7 +50,6 @@ export default function Testimonials() {
                 <h3>{d.Fname}</h3>
                 <h4>{d.title}</h4>
               </a>
-
             </div>
           </div>
         ))}
