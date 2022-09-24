@@ -16,11 +16,11 @@ export default function Works() {
     // },
     {
       id: "1",
-      title: "DCI Final project",
-      desc: "MERN stack- Under construction: In a team of 4, I have the role of SCRUM master. E-commerce site: vegan organic version of Hello Fresh. To be presented on Sept 6th. ",
+      title: "BioBites: eCommerce",
+      desc: "A vegan organic version of Hello Fresh cooking kits. MERN stack: In a team of 4, I had the role of SCRUM master and fullstack developer. July, Aug, Sept 2022. ",
       img: "assets/bioBites.jpg",
-      link: "https://clone-dci-final.vercel.app/",
-      tech: "Frontend: SPA React.js. | backend needs deploying: MongoDB, Express, Node.js, JWT, bcrypt"
+      link: "https://biobites.herokuapp.com/",
+      tech: "Frontend: SPA React.js. | backend: MongoDB, Express, Node.js, JWT, bcrypt"
     },
     
     {
