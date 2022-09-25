@@ -12,10 +12,10 @@
         .left {
                 flex: 0.5;
                 overflow: hidden;
-
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 .imgContainer {
-                        width: 700px;
-                        height: 700px; //desktop makes no diff
                         background-color: turquoise;
                         border-radius: 50%;
                         display: flex;
@@ -26,7 +26,7 @@
                         @include tablet {
                                 //align-items: flex-start;
                                 width: 500px;
-                                height: 500px;
+                                // height: 500px;
                         }
 
                         .img {
