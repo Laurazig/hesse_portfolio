@@ -18,9 +18,10 @@ export default function Works2() {
     {
       id: "5",
       title: "Fullstack- Leipzig Wardrobe",
-      desc: "Frontend: error check forms, add workshop card. Backend: error check forms, admin rights. April - present.",
+      desc: "Frontend: error check forms, add workshop card (deployed). Backend: error check forms, admin rights (not deployed). April - present.",
       img: "assets/W_react_Wardrobe.jpg",
-      link: "https://hesse-final-project2.herokuapp.com",
+      link: "https://biobites.vercel.app/",
+      // link: "https://hesse-final-project2.herokuapp.com",
       tech: "MERN stack, Express validation, JWT, cookies, Atlas, MVC, Heroku."
     },
     {
