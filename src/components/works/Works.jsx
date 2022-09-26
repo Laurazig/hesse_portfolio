@@ -19,8 +19,9 @@ export default function Works() {
       title: "BioBites: eCommerce",
       desc: "A vegan organic version of Hello Fresh cooking kits. MERN stack: In a team of 4, I had the role of SCRUM master and fullstack developer. July, Aug, Sept 2022. ",
       img: "assets/bioBites.jpg",
-      link: "https://biobites.herokuapp.com/",
-      tech: "Frontend: SPA React.js. | backend: MongoDB, Express, Node.js, JWT, bcrypt"
+      link: "https://biobites.vercel.app/",
+      // link: "https://biobites.herokuapp.com/",
+      tech: "Frontend: SPA React.js. (deployed) | backend: MongoDB, Express, Node.js, JWT, bcrypt (not deployed)."
     },
     
     {
