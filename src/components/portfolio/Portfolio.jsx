@@ -91,7 +91,7 @@ export default function Portfolio() {
         <h3>Under Construction: Direct links</h3>
         <ul>
           <li> <a href="https://lenganthanh.github.io/final_inspiration_jam/index.html" target="_blank" rel="noreferrer">DCI Jam Hackathon</a></li>
-          <li><a href="https://www.leipzigg.com/" target="_blank" rel="noreferrer">www.Leipzigg.com</a></li>
+          <li><a href="https://laurazig.github.io/leipzigWardrobe/" target="_blank" rel="noreferrer">Leipzig Wardrobe</a></li>
           <li><a href="https://leipzig-wardrobe-react.vercel.app/" target="_blank" rel="noreferrer">SPA Leipzig Wardrobe</a></li>
           <li><a href="https://laurafromleeds.weebly.com/" target="_blank" rel="noreferrer">English Teacher 2014</a></li>
           <li><a href="https://laurahesse.wordpress.com/laurafromleeds/" target="_blank" rel="noreferrer">English teacher 2019</a></li>
