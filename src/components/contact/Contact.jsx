@@ -34,25 +34,24 @@ export default function Contact() {
             <a href="https://github.com/Laurazig" target="_blank" rel="noreferrer">
               <img src="assets/githubIcon.jpg" alt="" className="icon" />
             </a>
-            <a href="https://twitter.com/zukunfty" target="_blank" rel="noreferrer">
+            {/* <a href="https://twitter.com/zukunfty" target="_blank" rel="noreferrer">
               <img src="assets/twitter.png" alt="" className="icon" />
             </a>
             <a href="https://www.instagram.com/leipzig.wardrobe/"target="_blank" rel="noreferrer">
               <img src="assets/instagram.png" alt="" className="icon" />
-            </a>
+            </a> */}
           </div>
         </div>
-        <a href="https://www.linkedin.com/groups/12668793/" className="white" target="_blank" rel="noreferrer">
+        {/* <a href="https://www.linkedin.com/groups/12668793/" className="white" target="_blank" rel="noreferrer">
           <div className="left">
             <p>Why not join my 'Women Who Code' group on LinkedIn or recommend it to a friend?!</p>
           </div>
-          <div className="right">
-            {/* <LinkedIn className="icon" /> */}
-            {/* <img src="assets/Contact_LinkedInGroup.jpg" alt="LinkedIn screenshot of group" /> */}
-            <img src="assets/TLinked2.jpg" alt="" />
+          <div className="right"> */}
+        {/* <LinkedIn className="icon" /> */}
+        {/* <img src="assets/Contact_LinkedInGroup.jpg" alt="LinkedIn screenshot of group" /> */}
+        {/* <img src="assets/TLinked2.jpg" alt="" />
           </div>
-
-        </a>
+        </a> */}
 
         {/* <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Email" />
@@ -69,12 +68,7 @@ export default function Contact() {
           </div>
         </a>
       </div>
-
     </div>
-
-
-
-
   )
 }
 
