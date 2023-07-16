@@ -10,15 +10,15 @@ export const featuredPortfolio = [
         id: 2,
         title: "Leipzig Wardrobe",
         img: "assets/SPA_LW.jpg",
-        text: "React version of my static leipzigg.com site. Deployed with Vercel. Created April 2022 & still under construction.",
+        text: "React version of my static HTML site. Deployed with Vercel. Created April 2022 & still under construction.",
         link: "https://leipzig-wardrobe-react.vercel.app/"
     },
     {
         id: 3,
-        title: "www.leipzigg.com",
+        title: "Leipzig Wardrobe",
         img: "assets/LeipzigWardrobe.jpg",
         text: "HTML & CSS website I created to inform & build bridges in the local community. Hosted with Azure. 2021",
-        link: "https://www.leipzigg.com/"
+        link: "https://laurazig.github.io/leipzigWardrobe/"
     },
     // {
     //     id: 4,
@@ -78,7 +78,7 @@ export const mobilePortfolio = [  //SPA
         id: 1,
         title: "Leipzig Wardrobe",
         img: "assets/SPA_LW.jpg",
-        text: "React version of my static leipzigg.com site. Deployed with Vercel. Created April 2022 & still under construction.",
+        text: "React version of my static HTML site. Deployed with Vercel. Created April 2022 & still under construction.",
         link: "https://leipzig-wardrobe-react.vercel.app/"
     }
     // ,
@@ -118,10 +118,10 @@ export const designPortfolio = [   //STATIC
     },
     {
         id: 2,
-        title: "www.leipzigg.com",
+        title: "Leipzig Wardrobe",
         img: "assets/LeipzigWardrobe.jpg",
         text: "HTML & CSS website I created to inform & build bridges in the local community. Hosted with Azure. 2021",
-        link: "https://www.leipzigg.com/"
+        link: "https://laurazig.github.io/leipzigWardrobe/"
     }
     // ,
     // {
