@@ -44,10 +44,10 @@ export default function Works() {
     {
       id: "4",
       // icon: <Language />,
-      title: "www.leipzigg.com",
-      desc: "A website I created to inform & build bridges in the local community. Hosted with Azure. 2021",
+      title: "Leipzig Wardrobe",
+      desc: "A website I created to inform & build bridges in the local community. 2021",
       img: "assets/W_LeipzigWardrobe.jpg",
-      link: "https://www.leipzigg.com/",
+      link: "https://laurazig.github.io/leipzigWardrobe/",
       // tech: ["HTML", "CSS"]
       tech: "HTML & CSS"
     }
