@@ -3,7 +3,7 @@ export const featuredPortfolio = [
         id: 1,
         title: "DCI Jam Hackathon",
         img: "assets/Hackathon.jpg", 
-        text: "2 WebDev students, 2 Online Marketing students, 3 gruling days, 1 amazing experience. SCSS & Bootstrap. June 2022",
+        text: "2 WebDev students, 2 Online Marketing students, 3 grueling days, 1 amazing experience. SCSS & Bootstrap. June 2022",
         link: "https://lenganthanh.github.io/final_inspiration_jam/index.html"
     },
     {
@@ -113,7 +113,7 @@ export const designPortfolio = [   //STATIC
         id: 1,
         title: "DCI Jam Hackathon",
         img: "assets/Hackathon.jpg", 
-        text: "2 WebDev students, 2 Online Marketing students, 3 gruling days, 1 amazing experience. June 2022",
+        text: "2 WebDev students, 2 Online Marketing students, 3 grueling days, 1 amazing experience. June 2022",
         link: "https://lenganthanh.github.io/final_inspiration_jam/index.html"
     },
     {

@@ -27,7 +27,7 @@ export default function Works() {
     {
       id: "2",
       title: "DCI Jam Hackathon",
-      desc: "2 WebDev students, 2 Online Marketing students, 3 gruling days, 1 amazing experience. June 2022",
+      desc: "2 WebDev students, 2 Online Marketing students, 3 grueling days, 1 amazing experience. June 2022",
       img: "assets/W_HackathonShort.jpg",
       link: "https://lenganthanh.github.io/final_inspiration_jam/index.html",
       //tech: ["SCSS", "Bootstrap"]
