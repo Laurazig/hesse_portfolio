@@ -70,12 +70,10 @@
                 text-decoration: none;
                 height: 350px;
                 position: relative;
-                //overflow: hidden;
                 border-radius: 20px;
                 color: black;
 
                 @include tablet {
-                   // height: 200px;
                     width: 90%;
                     height: 175px;
                     display: flex;
@@ -85,10 +83,6 @@
                     margin: 0;
                     
                 }
-                // &:hover{
-                //     //transform: scale(1.1);
-                //     border: 1 1 black;
-                // }
 
                 .item {
                     width: 700px;
@@ -98,31 +92,24 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    //overflow: hidden;
 
                     @include tablet {
                         width: 90%;
                         margin: 0;
-                        // height: 175px;
-                        //margin: 100px 100px 100px 100px;
-
-
-
                     }
 
                     .left {
                         flex: 4;
-                        //height: 80%;
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        @include tablet {
-                         
-                        }
 
+                        @include tablet{
+                            flex:0
+                        }
+                        
                         .leftContainer {
                             width: 90%;
-                            //height: 70%;
                             display: flex;
                             flex-direction: column;
                             justify-content: space-between;
@@ -141,7 +128,6 @@
                                     margin-bottom: 0.4rem;
                                     text-align: center;
                                 }
-
                             }
 
                             p {
@@ -173,6 +159,9 @@
                         justify-content: center;
                         overflow: hidden;
 
+                        @include tablet{
+                            flex: 12;
+                        }
 
                         img {
                             width: 72.5%;
