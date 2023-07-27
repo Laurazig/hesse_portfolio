@@ -14,38 +14,46 @@ export default function Works() {
     //   link: "https://biobites.herokuapp.com",
     //   tech: "Frontend: SPA React.js. | backend: MongoDB, Express, Node.js, JWT, bcrypt"
     // },
+    // {
+    //   id: "1",
+    //   title: "BioBites: eCommerce",
+    //   desc: "A vegan organic version of Hello Fresh cooking kits. MERN stack: In a team of 4, I had the role of SCRUM master and fullstack developer. July, Aug, Sept 2022. ",
+    //   img: "assets/bioBites.jpg",
+    //   link: "https://biobites.vercel.app/",
+    //   // link: "https://biobites.herokuapp.com/",
+    //   tech: "Frontend: SPA React.js. (deployed) | backend: MongoDB, Express, Node.js, JWT, bcrypt (not deployed)."
+    // },
     {
       id: "1",
-      title: "BioBites: eCommerce",
-      desc: "A vegan organic version of Hello Fresh cooking kits. MERN stack: In a team of 4, I had the role of SCRUM master and fullstack developer. July, Aug, Sept 2022. ",
-      img: "assets/bioBites.jpg",
-      link: "https://biobites.vercel.app/",
-      // link: "https://biobites.herokuapp.com/",
-      tech: "Frontend: SPA React.js. (deployed) | backend: MongoDB, Express, Node.js, JWT, bcrypt (not deployed)."
+      title: "Needles Craft & Kultur",
+      desc: "Community textile project I lead @ Grassi Museum. In construction: SPA but plan fullstack. July 2023. ",
+      img: "assets/Needles-craft-kulture.png",
+      link: "https://needles-craft-kultur.vercel.app/",
+      tech: "React.js, Nextjs, TailwindCSS"
     },
     
-    {
-      id: "2",
-      title: "DCI Jam Hackathon",
-      desc: "2 WebDev students, 2 Online Marketing students, 3 grueling days, 1 amazing experience. June 2022",
-      img: "assets/W_HackathonShort.jpg",
-      link: "https://lenganthanh.github.io/final_inspiration_jam/index.html",
-      //tech: ["SCSS", "Bootstrap"]
-      tech: "SCSS, Bootstrap"
-    },
     // {
-    //   id: "3",
-    //   title: "SPA Leipzig Wardrobe",
-    //   desc: "Add a workshop to the list",
-    //   img: "assets/W_react_Wardrobe_black.jpg",
-    //   link: "https://leipzig-wardrobe-react.vercel.app/",
-    //   tech: "React, CSS"
+    //   id: "2",
+    //   title: "DCI Jam Hackathon",
+    //   desc: "2 WebDev students, 2 Online Marketing students, 3 grueling days, 1 amazing experience. June 2022",
+    //   img: "assets/W_HackathonShort.jpg",
+    //   link: "https://lenganthanh.github.io/final_inspiration_jam/index.html",
+    //   //tech: ["SCSS", "Bootstrap"]
+    //   tech: "SCSS, Bootstrap"
     // },
+    {
+      id: "3",
+      title: "SPA Leipzig Wardrobe",
+      desc: "An information website with search functionality for textile workshops and makers. Add a workshop to the list. 2022",
+      img: "assets/W_react_Wardrobe_black.jpg",
+      link: "https://leipzig-wardrobe-react.vercel.app/",
+      tech: "React, CSS"
+    },
     {
       id: "4",
       // icon: <Language />,
       title: "Leipzig Wardrobe",
-      desc: "A website I created to inform & build bridges in the local community. 2021",
+      desc: "A website I created to inform & build bridges in the local community. Displayed on my Instagram. 2021",
       img: "assets/W_LeipzigWardrobe.jpg",
       link: "https://laurazig.github.io/leipzigWardrobe/",
       // tech: ["HTML", "CSS"]

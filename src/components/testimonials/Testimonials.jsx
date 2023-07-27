@@ -28,7 +28,7 @@ export default function Testimonials() {
       img: "assets/TBerlia.jpg",
       icon: "assets/TLinked.jpg",
       desc: '  "She is an enthusiastic participant in all class discussions and jumps at every opportunity to excel at what she is learning." ',
-      link: "https://www.linkedin.com/in/neha-berlia-66b14554/"
+      link: "https://www.linkedin.com/in/neha-berlia/"
     }
     ];
   return (
