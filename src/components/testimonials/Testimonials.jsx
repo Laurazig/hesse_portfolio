@@ -46,7 +46,7 @@ export default function Testimonials() {
               {d.desc}
             </div>
             <div className="bottom">
-              <a href="{d.link}" >
+              <a href={d.link}>
                 <h3>{d.Fname}</h3>
                 <h4>{d.title}</h4>
               </a>
